@@ -2,7 +2,7 @@
   "name": "admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi application for Public ARt",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,13 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.4.5",
-    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/plugin-graphql": "4.4.5",
     "@strapi/plugin-i18n": "4.4.5",
+    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/strapi": "4.4.5",
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Shumilina Polina"
   },
   "strapi": {
     "uuid": "b36f4d80-b028-43e7-b466-dd4b667a4127"
